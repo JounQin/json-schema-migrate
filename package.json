@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Migrate JSON-Schema to draft-06",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rm -rf dist && tsc",
     "eslint": "eslint src spec",
